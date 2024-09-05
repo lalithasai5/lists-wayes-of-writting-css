@@ -1,0 +1,21 @@
+#virat {
+    background-color: rgb(189, 8, 8);
+}
+#rohit {
+    background-color: rgb(29, 11, 229);
+}
+ul{
+    list-style-type:circle;
+ }
+#ul{
+    list-style-type: georgian;
+}
+#ul2{
+    list-style-type:armenian;
+}
+#ul3{
+    list-style-type:square;
+}
+/*li::marker {
+    content: "🏏";
+}

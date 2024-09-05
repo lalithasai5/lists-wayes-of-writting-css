@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>external,internal,inline</title>
+  </head>
+  <body>
+    <ol id="ol" type="i">
+      <li
+        style="
+          background-color: rgba(25, 12, 203, 0.504);
+          color: rgb(204, 8, 100);
+        "
+      >
+        dhoni
+      </li>
+      <li>virat</li>
+      <li>DK</li>
+      <li>SKY</li>
+      <li>rohit</li>
+    </ol>
+    <style>
+      li::marker {
+        content: "🏏";
+      }
+      #ol {
+        background-color: aqua;
+        color: red;
+      }
+    </style>
+  </body>
+</html>
